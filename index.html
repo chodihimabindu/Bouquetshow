@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Direction Reveal - Direction aware content reveals</title>
+
+    <link rel="stylesheet" href="styles/site.css">
+    <link rel="stylesheet" href="styles/direction-reveal.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lato:300,400">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+
+    body {
+
+      background: url("images/background9.png") no-repeat center center fixed;
+        background-size: cover;
+      padding-top: 150px;
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.4;
+      color: #333;
+
+    }
+
+  .affix {
+      top: 10;
+      width: 100%;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+      background-color: #e87da7;
+      border-color: #e87da7;
+
+  }
+  .affix a {
+      color: #fff !important;
+      padding: 15px !important;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+  }
+  .affix-top a {
+      padding: 25px !important;
+  }
+  .affix + .container-fluid {
+      padding-top: 95px;
+  }
+  .banerback{
+    background-color: #7dada8;
+    color: #fff;
+    height: 200px;
+  }
+  .navbar-inverse {
+    background-color: #1976D2;
+    border-color: #1976D2;
+}
+
+#example1 {
+    border: 0px solid black;
+    padding: 25px;
+    background: url(images/rose1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+    </style>
+  </head>
+
+
+
+  <body>
+<div id="example1">
+    <div class="container-fluid " >
+      <h1>A flower known as a bloom</h1>
+      <h3>The biological function of a flower is to effect reproduction</h3>
+      <p>Flowers may facilitate outcrossing.</p>
+      <p>The essential parts of a flower can be considered in two parts: the vegetative part,
+         consisting of petals and associated structures in the perianth, and the reproductive or sexual parts.</p>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="header">
+    <div class="container">
+      <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+        <ul class="nav navbar-nav">
+      <h1 class="logo-text">Bouquet Show</h1>
+
+      <div class="header--links">
+        <a href="https://github.com/NigelOToole/direction-reveal/archive/master.zip" class="btn btn-white">Download</a>
+        <a href="https://github.com/NigelOToole/direction-reveal" target="_blank" class="btn btn-white">View on GitHub</a>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+        <a>
+          <img src="images/logo.jpg" class="img-circle" alt="Random Name" width="100" height="100" style="float:swing--in-right; left:"500"">
+        </a>
+      </div>
+    </ul>
+  </nav>
+    </div>
+  </div>
+
+
+
+<div class="container-fluid" style="height:1000px">
+  <div class="demo demo--intro container">
+    <h2>Flowering transition.</h2>
+    <p>The transition to flowering is one of the major phase changes that a plant makes during its life
+      cycle. The transition must take place at a time that is favorable for fertilization and the formation of seeds, hence ensuring maximal reproductive success.</p>
+    <p>To meet these needs a plant is able to interpret important endogenous and environmental cues such as changes in levels of plant hormones and seasonable temperature and photoperiod changes.</p>
+  </div>
+
+
+  <div class="container demo">
+    <h2>Collection of Flowers</h2>
+
+    <h3>Bouquets</h3>
+
+    <div class="direction-reveal direction-reveal--3-grid-flexbox direction-reveal--demo-swing">
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/page1.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Red roses and white roses Bouquet</h3>
+          <p class="direction-reveal__text">Collection of roses abd tight with green leafs.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card" >
+        <img src="images/page2.gif" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">With Roses and chockets and heats gif.</h3>
+          <p class="direction-reveal__text">Collection of roses abd tight with green leafs.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/page3.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Different Roses and leafs..</h3>
+          <p class="direction-reveal__text">Collection of roses abd tight with green leafs.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/page4.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Different Roses and leafs..</h3>
+          <p class="direction-reveal__text">Collection of roses abd tight with green leafs.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/page5.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Different Roses and leafs..</h3>
+          <p class="direction-reveal__text">Collection of roses abd tight with green leafs.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/page6.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">With Different Roses and leafs..</h3>
+          <p class="direction-reveal__text">Collection of roses abd tight with green leafs.</p>
+        </div>
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="container demo">
+    <h3 class="">Kadiyam Nursery's</h3>
+
+    <div class="direction-reveal direction-reveal--3-grid-flexbox direction-reveal--demo-slide">
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/nursery1.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Nursery with all types of flowers</h3>
+          <p class="direction-reveal__text">Kadiyam nurseries spread in 3,500 acres in
+            11 villages of Kadiyam mandal in East Godavari are doing
+            good business and providing considerable employment to about 20,000 agriculture labour.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/nursery2.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Nursery with all types of flowers maintained with people.</h3>
+          <p class="direction-reveal__text">The scenic beauty of Kadiyam nurseries is often seen in South Indian films .</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/nursery3.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Nursery with all types of flowers maintained with people.</h3>
+          <p class="direction-reveal__text">The representatives of Imperial Trading and Contracting from Doha, Qatar and V. Jayakannan.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/nursery4.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Nursery with all types of flowers maintained with people.</h3>
+          <p class="direction-reveal__text">There is no encouragement from the State or Union government.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/nursery5.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Nursery with all types of flowers maintained with people.</h3>
+          <p class="direction-reveal__text">Ayyappan and Director, National Horticulture Board R.K. Agarwal to establish Directorate of Floriculture Research in Rajahmundry or Venkataramannagudem, West Godavari.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/nursery6.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Nursery with all types of flowers maintained with people.</h3>
+          <p class="direction-reveal__text">Ayyappan and Director, National Horticulture Board R.K. Agarwal to establish Directorate of Floriculture Research in Rajahmundry or Venkataramannagudem, West Godavari.</p>
+        </div>
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="container demo">
+    <h3 class="">Only Roses</h3>
+
+    <div class="direction-reveal direction-reveal--3-grid-flexbox direction-reveal--demo-rotate">
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/rose1.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Natural roses, basically at home.</h3>
+          <p class="direction-reveal__text">Rose is a type of flowering shrub. Its name comes from the Latin word Rosa.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/rose2.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Natural roses, basically at home.</h3>
+          <p class="direction-reveal__text">The flowers of the rose grow in many different colors, from the well-known red rose or yellow roses and sometimes white or purple roses. Roses belong to the family of plants called Rosaceae.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/rose3.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Natural roses, basically at home.</h3>
+          <p class="direction-reveal__text">Rose is a type of flowering shrub. Its name comes from the Latin word Rosa.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/rose4.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Natural roses, basically at home.</h3>
+          <p class="direction-reveal__text">A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/rose5.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Natural roses, basically at home.</h3>
+          <p class="direction-reveal__text">A rose is a woody perennial flowering plant of the genus Rosa.</p>
+        </div>
+      </a>
+
+      <a href="#" class="direction-reveal__card">
+        <img src="images/rose6.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+        <div class="direction-reveal__overlay">
+          <h3 class="direction-reveal__title">Natural roses, basically at home.</h3>
+          <p class="direction-reveal__text">A rose is a woody perennial flowering plant of the genus Rosa.</p>
+        </div>
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="container demo">
+    <h3 class="">Senary collection</h3>
+
+    <div class="direction-reveal direction-reveal--grid-bootstrap direction-reveal--demo-bootstrap">
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <a href="#" class="direction-reveal__card">
+            <img src="images/hibiscus.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+            <div class="direction-reveal__overlay">
+              <h3 class="direction-reveal__title">Hibiscus</h3>
+              <p class="direction-reveal__text">The hibiscus is the national flower of Haiti and is used in their national tourism slogan of Haiti.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-sm-4">
+          <a href="#" class="direction-reveal__card">
+            <img src="images/hibiscus1.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+            <div class="direction-reveal__overlay">
+              <h3 class="direction-reveal__title">Hibiscus</h3>
+              <p class="direction-reveal__text">Many species are grown for their showy flowers or used as landscape shrubs, and are used to attract butterflies, bees, and hummingbirds.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-sm-4">
+          <a href="#" class="direction-reveal__card">
+            <img src="images/hibiscus2.jpg" alt="Image" class="img-fluid" style="height:360px; width:350px">
+
+            <div class="direction-reveal__overlay">
+              <h3 class="direction-reveal__title">Hibiscus</h3>
+              <p class="direction-reveal__text">Dried hibiscus is edible, and it is often a delicacy in Mexico.</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="container">
+
+  </div>
+
+
+</div>
+
+  <footer class="footer">
+    <div class="container">
+    www.hcl.com <a href="http://www.hcl.com" target="_blank">pure structure</a>
+    </div>
+  </footer>
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/bundle.js"></script>
+    <!-- endbuild -->
+
+  </body>
+</html>
